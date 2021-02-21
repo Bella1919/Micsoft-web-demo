@@ -1,0 +1,272 @@
+
+ body{
+    background-color:#fff;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px
+}
+#navfrist{
+    display: flex;
+}
+#navsencond{
+    color: #262626;
+    text-decoration: none;
+    font-size:13px;
+}
+#navsencond:hover{
+    border-color: #262626;
+    border-bottom:1.5px solid;
+    color: #262626;
+}
+
+.link1{
+    color: #0067b8;
+    text-decoration: none;
+}
+.link1:hover{
+    border-bottom:2px solid;
+    border-color:#0067b8;
+    color:#0067b8;
+    padding-right:8px;
+}
+.link2{
+    color: #616161;
+    text-decoration: none;
+    font-size: 12px;
+}
+.link2:hover{
+    border-bottom:1px solid;
+    border-color:#616161;
+    color:#616161;
+}
+.link3{
+    font-size: 15px solid;
+    text-decoration: none;
+    color:black;
+}
+.link3:hover{
+    border-bottom:2px solid;
+    border-color:black;
+    color:black;
+    padding-right: 8px;
+}
+.link4text{
+    color:white solid;
+}
+.link4text:hover{
+    border-bottom: 2px solid;
+    border-color:white;
+    margin-left: -8px;
+}
+.link5{
+    text-decoration: none;
+    font-size:15px;
+    font-weight:600;
+    color:black;   
+}
+.link5:hover{
+    border-bottom:1.5px solid;
+    border-color:black;
+    color:black;
+}
+.link6{
+    color:#616161;
+}
+.link8{
+    font-size:24px;
+    font-weight:600;
+    color:black;
+    text-decoration: none;
+}
+.link8:hover{
+    color:black;
+}
+.link9{
+    font-size:15px;
+    color:black;
+    text-decoration:none;
+}
+.link9:hover{
+    color:black;
+}
+.link10text{
+    color:transparent solid;
+    font-size:15px;
+    font-weight:500;
+}
+.link10text:hover{
+    border-bottom: 2px solid;
+    border-color:white;
+    padding-right:8px;
+}
+.link11{
+    color: #616161;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.link11:hover{
+    border-bottom:1px solid;
+    border-color:#616161;
+    color:#616161;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 15px;
+    color: #616161;
+}
+h5{
+    font-size:24px;
+    font-weight:600;
+}
+.toprow{
+    
+    justify-content:space-between
+}
+
+.footer{
+    color: #616161;
+    font-size: 12px;
+    
+}
+.button1{
+    background-color:black;
+    color:white;
+    border:none;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.button2{
+    background-color:#FEF000;
+    color:black;
+    border:none;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size: 15px;
+    font-weight: 600px;
+}
+.button3{
+    background-color:transparent;
+    color:black;
+    border:none;
+    padding-left:40px;
+    padding-right:1px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.topsideImages{
+    display: flex;
+    justify-content:space-around;
+    max-width: 90%;
+    margin:auto;
+  
+}
+.topsideImages1 {
+    max-width: 150px;
+    padding:70px 0;
+    text-align: center;
+}
+.anglebracket1{
+    color:#0067b8
+}
+.bottomside{
+    justify-items: auto;
+}
+
+.slide1{
+    max-width:40%; 
+    position:absolute;
+    bottom: 40%; 
+    left: 10%; 
+    
+}
+.slide2{
+    max-width:40%; 
+    position:absolute;
+    top: 50%; 
+    left: 30%; 
+    transform:translate(-50%,-50%)
+}
+.twobutton{
+    max-width:80%;
+    justify-items:auto;
+}
+
+
+@media only screen and (max-width:768px){
+    .topsideImages{
+       display:initial !important;
+       
+    }
+    .topsideImages1{
+        max-width:initial !important;
+        text-align: left;
+        display:flex;
+        padding:20px !important;
+    }
+    .topsideImages1 img{
+        width:20px;
+        height:20px;
+    }
+    
+    .Midtextandbutoon{
+        top:50%  !important;
+        left:10% !important;
+        max-width:80% !important;
+        transform:initial !important;
+        text-align:center;
+    }
+    .Midphoto{
+        padding-bottom:250px;
+        background-color:#e6e6e6;
+    }
+    #Topphoto{
+        padding-bottom:250px;
+        background-color:#e6e6e6;
+    }
+    .slide1{
+        top:55%  !important;
+        left:20% !important;
+        max-width:80% !important;
+        transform:initial !important;
+        text-align:center;
+    }
+    #Topphoto2{
+        padding-bottom:250px;
+        background-color:#e6e6e6;
+    }
+    .slide2{
+        top:50%  !important;
+        left:10% !important;
+        max-width:80% !important;
+        transform:initial !important;
+        text-align:center;
+    }
+    #search{
+        margin-right: 50%;
+        max-width: 50%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
